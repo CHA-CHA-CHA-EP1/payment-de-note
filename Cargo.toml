@@ -8,3 +8,12 @@ actix-cors = "0.7.1"
 actix-web = "4.11.0"
 serde = { version = "1.0.228", features = ["derive"] }
 validator = { version = "0.20.0", features = ["derive"] }
+futures = "0.3.28"
+
+[dependencies.mongodb]
+version = "3.3.0"
+
+[dependencies.uuid]
+version = "1.18.1"
+# Lets you generate random UUIDs
+features = ["v4"]
